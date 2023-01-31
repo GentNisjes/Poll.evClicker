@@ -8,7 +8,8 @@ for x in range (0,20):
     PATH = "C:\webdrivers\chromedriver.exe"
     s = Service('\webdrivers\chromedriver.exe')
     driver = webdriver.Chrome(service=s)
-    driver.get("https://pollev.com/lula")
+    linkadres = "https://pollev.com/lula"
+    driver.get(linkadres)
 
     time.sleep(1)
 
